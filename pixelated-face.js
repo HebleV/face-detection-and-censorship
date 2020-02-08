@@ -39,9 +39,9 @@ function censor({ boundingBox: face }) {
     face.y,
     face.width, // how wide and high should I capture from?
     face.height,
-    face.x, // now to draw it, where should I start x and y?
+    face.x,  // now to draw it, where should I start x and y?
     face.y,
-    SIZE, // how wide and high should it be?
+    SIZE,  // how wide and high should it be?
     SIZE
   );
 
